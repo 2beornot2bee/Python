@@ -1,0 +1,8 @@
+number=int(input("Enter a number: "))
+if number%2==0 and number%4==0:
+	print("Number is even and can be diveded four")
+elif number%2==0 and not number%4==0:
+	print("Number is even but cannot be diveded four")
+elif number%2!=0:
+	print("Number is odd")
+
